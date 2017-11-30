@@ -22,7 +22,7 @@ function genNum(ev){
         alert('Please insert your numbers');
         return false;
         
-    } else if (max <= digits) {
+    } else if (max < digits*2) {
         alert('Oops!  Max range should be greater than digits');
         return false;
     } 
