@@ -9,7 +9,7 @@ function genNum(ev){
     let check = false;
     
     
-    let uri = " https://griffis.edumedia.ca/mad9014/lotto/nums.php";
+    let uri = "http://localhost/mad9014-lotto/nums.php";
     
     let digits = document.querySelector("#digits").value;
     let max=document.querySelector("#max").value;
